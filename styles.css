@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222222;
+    color:#329664
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+main div {
+    border: 5px solid #329664;
+    border-radius: 20px;
+    padding: 10px;
+  margin: 5px;
+}
